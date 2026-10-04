@@ -27,6 +27,7 @@ print("Lowercase:", name.lower())
 print("Reverse:", name[::-1])
 
 
+#day 4
 # DSA - String Practice
 
 word = "Python"
@@ -42,3 +43,43 @@ print("Length of Python:", len(word))
 
 # Reverse
 print("Reverse of Python:", word[::-1])
+
+# Day 3 - Python Dictionaries
+# 60-Day Career Journey
+
+# Student information
+student = {
+    "name": "Siva",
+    "age": 20,
+    "dept": "CSE",
+    "college": "ABC",
+    "city": "Chennai"
+}
+
+print("Name:", student["name"])
+print("Age:", student["age"])
+print("Department:", student["dept"])
+print("College:", student["college"])
+print("City:", student["city"])
+
+
+# Student marks
+marks = {
+    "Siva": 85,
+    "Velu": 95,
+    "Jan": 90,
+    "Kavi": 92
+}
+
+# Print one student's mark
+print("Velu's mark:", marks["Velu"])
+
+# Add a new student
+marks["Arun"] = 90
+
+# Find highest mark
+print("Highest mark:", max(marks.values()))
+
+# Print all students and marks
+for name, mark in marks.items():
+    print(name, ":", mark)
