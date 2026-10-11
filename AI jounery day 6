@@ -1,0 +1,47 @@
+-- Day 6: SQL Practice
+-- Topics: SELECT, WHERE, MIN, MAX, COUNT
+
+-- Create a table
+CREATE TABLE Students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(30),
+    marks INT
+);
+
+-- Insert sample records
+INSERT INTO Students VALUES
+(1, 'Anu', 'CSE', 85),
+(2, 'Priya', 'IT', 90),
+(3, 'Kavi', 'CSE', 75),
+(4, 'Riya', 'ECE', 88),
+(5, 'Meena', 'IT', 95);
+
+-- 1. SELECT: Display all student details
+SELECT * FROM Students;
+
+-- 2. SELECT: Display student names
+SELECT name FROM Students;
+
+-- 3. WHERE: Display CSE students
+SELECT * FROM Students
+WHERE department = 'CSE';
+
+-- 4. MIN: Find the lowest mark
+SELECT MIN(marks) AS lowest_mark
+FROM Students;
+
+-- 5. MAX: Find the highest mark
+SELECT MAX(marks) AS highest_mark
+FROM Students;
+
+-- 6. COUNT: Count the total number of students
+SELECT COUNT(*) AS total_students
+FROM Students;
+
+-- 7. COUNT with WHERE: Count CSE students
+SELECT COUNT(*) AS cse_students
+FROM Students
+WHERE department = 'CSE';
+
+-- Day 6 completed!
