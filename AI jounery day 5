@@ -1,0 +1,60 @@
+-- Day 5 - SQL Practice
+-- Topic: SQL Basics and Queries
+
+-- 1. Create a database
+CREATE DATABASE CareerPractice;
+
+-- 2. Select the database
+USE CareerPractice;
+
+-- 3. Create a student table
+CREATE TABLE Students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(30),
+    marks INT
+);
+
+-- 4. Insert records into the table
+INSERT INTO Students VALUES
+(1, 'Anu', 'CSE', 85),
+(2, 'Priya', 'IT', 90),
+(3, 'Kavi', 'CSE', 75),
+(4, 'Riya', 'ECE', 88),
+(5, 'Meena', 'IT', 95);
+
+-- 5. Display all records
+SELECT * FROM Students;
+
+-- 6. Select specific columns
+SELECT name, marks FROM Students;
+
+-- 7. Filter records using WHERE
+SELECT * FROM Students
+WHERE department = 'CSE';
+
+-- 8. Sort records using ORDER BY
+SELECT * FROM Students
+ORDER BY marks DESC;
+
+-- 9. Find the total number of students
+SELECT COUNT(*) AS total_students
+FROM Students;
+
+-- 10. Find the highest mark
+SELECT MAX(marks) AS highest_mark
+FROM Students;
+
+-- 11. Find the lowest mark
+SELECT MIN(marks) AS lowest_mark
+FROM Students;
+
+-- 12. Calculate the average mark
+SELECT AVG(marks) AS average_marks
+FROM Students;
+
+-- 13. Calculate the total marks
+SELECT SUM(marks) AS total_marks
+FROM Students;
+
+-- Day 5 completed!
