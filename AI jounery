@@ -1,0 +1,77 @@
+# Day 1 - Python Basics
+# Goal: Learn basic Python concepts and practice coding.
+
+# 1. Print a welcome message
+print("Hello, World!")
+print("Welcome to my AI Engineer learning journey!")
+
+# 2. Store personal learning information
+name = "Sivaranjini"
+career_goal = "AI Engineer"
+
+print("Name:", name)
+print("Career Goal:", career_goal)
+
+# 3. Variables and data types
+age = 21
+language = "Python"
+is_learning = True
+
+print("Age:", age)
+print("Programming Language:", language)
+print("Currently Learning:", is_learning)
+
+# 4. Basic mathematical operations
+a = 10
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+# 5. Store names in a list
+names = ["Anu", "Priya", "Kavi", "Riya", "Meena"]
+
+print("Names:", names)
+
+# 6. Print each name
+for person in names:
+    print(person)
+# Day 1 - Python Basics
+
+## Objective
+Learn the fundamentals of Python programming.
+
+## Topics Covered
+- Print statements
+- Variables and data types
+- Basic mathematical operations
+- Lists
+- For loops
+
+## Practice
+- Printed welcome messages.
+- Created variables to store information.
+- Performed basic mathematical calculations.
+- Stored five names in a list.
+- Printed each name using a loop.
+
+## Career Goal
+I am starting my programming journey to prepare for AI Engineer internships and job opportunities.
+
+## Progress
+Day 1: Python basics practice completed.
+
+### 📌 Step 4: Save your files on GitHub
+
+1. Open your repository.
+2. Select **Add file → Create new file**.
+3. Enter `day-1.py`.
+4. Paste the Python code.
+5. Select **Commit changes** to save it.
+6. Repeat the process for `README.md`.
+
+**Remember:** If you already have these files, don't create duplicates. Check your repository first.
+
+🌟 **Your next goal:** Once you've uploaded the files, tell me **"Day 1 uploaded."** I'll help you organize your GitHub repository for your AI Engineer career, step by step.
