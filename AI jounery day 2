@@ -1,0 +1,53 @@
+# Day 2 - Python Practice
+# Topic: Conditions, Loops, Lists, and Functions
+
+# 1. Check whether a number is positive or negative
+number = 10
+
+if number > 0:
+    print("Positive number")
+elif number < 0:
+    print("Negative number")
+else:
+    print("Zero")
+
+
+# 2. Check whether a number is even or odd
+number = 7
+
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+
+
+# 3. Print numbers from 1 to 10
+for i in range(1, 11):
+    print(i)
+
+
+# 4. Store and print five names
+names = ["Anu", "Priya", "Kavi", "Riya", "Meena"]
+
+for name in names:
+    print(name)
+
+
+# 5. Find the sum of list elements
+numbers = [10, 20, 30, 40, 50]
+
+total = sum(numbers)
+
+print("Sum of numbers:", total)
+
+
+# 6. Create a function to add two numbers
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print("Addition result:", result)
+
+
+# Day 2 completed!
