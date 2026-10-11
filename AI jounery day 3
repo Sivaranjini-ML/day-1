@@ -1,0 +1,70 @@
+# Day 3 - Python Practice
+# Topic: Strings, Dictionaries, and Functions
+
+# 1. String operations
+name = "Sivaranjini"
+
+print("Name:", name)
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Name length:", len(name))
+
+
+# 2. Reverse a string
+text = "Python"
+
+reversed_text = text[::-1]
+
+print("Original string:", text)
+print("Reversed string:", reversed_text)
+
+
+# 3. Count vowels in a string
+word = "programming"
+vowels = "aeiou"
+count = 0
+
+for letter in word:
+    if letter in vowels:
+        count += 1
+
+print("Number of vowels:", count)
+
+
+# 4. Create a dictionary
+student = {
+    "name": "Anu",
+    "department": "CSE",
+    "language": "Python"
+}
+
+print("Student details:", student)
+print("Student name:", student["name"])
+
+
+# 5. Add a new item to a dictionary
+student["year"] = "Final Year"
+
+print("Updated student details:", student)
+
+
+# 6. Find the largest number in a list
+numbers = [12, 45, 23, 67, 34]
+
+largest = numbers[0]
+
+for number in numbers:
+    if number > largest:
+        largest = number
+
+print("Largest number:", largest)
+
+
+# 7. Create a function to calculate a square
+def square(number):
+    return number * number
+
+print("Square of 5:", square(5))
+
+
+# Day 3 completed!
