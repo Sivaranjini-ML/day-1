@@ -137,4 +137,34 @@ print("Number of items:", len(numbers))
 
 # DSA Q3: Find the largest item in a list
 numbers = [12, 45, 23, 67, 34]
-print("Largest item:", max(numbers))
+print("Largest item:", max(numbers)
+
+# Day5_SQL_Practice.sql
+-- Day 5: SQL Practice
+-- Topic: SELECT, WHERE, ORDER BY, ASC, DESC
+
+-- Q1: Display all student records
+SELECT * FROM students;
+
+-- Q2: Display only student names
+SELECT name FROM students;
+
+-- Q3: Find students who scored more than 80
+SELECT * FROM students
+WHERE marks > 80;
+
+-- Q4: Find students in the CSE department
+SELECT * FROM students
+WHERE department = 'CSE';
+
+-- Q5: Display students in descending order of marks
+SELECT * FROM students
+ORDER BY marks DESC;
+
+-- Q6: Display names of students who scored more than 80
+SELECT name FROM students
+WHERE marks > 80;
+
+-- Q7: Display all students from lowest to highest marks
+SELECT * FROM students
+ORDER BY marks ASC;
