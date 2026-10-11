@@ -168,3 +168,17 @@ WHERE marks > 80;
 -- Q7: Display all students from lowest to highest marks
 SELECT * FROM students
 ORDER BY marks ASC;
+# Day6_SQL_Aggregate_Functions.sql
+# Day 6 – SQL Aggregate Functions
+
+## Topics Covered
+- COUNT()
+- SUM()
+- AVG()
+- MAX()
+- MIN()
+
+## Learning Outcome
+Learned how to calculate totals, averages,
+maximum values, minimum values, and record counts
+using SQL aggregate functions.
