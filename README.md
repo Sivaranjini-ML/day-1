@@ -83,3 +83,5 @@ print("Highest mark:", max(marks.values()))
 # Print all students and marks
 for name, mark in marks.items():
     print(name, ":", mark)
+
+# Day4_Python_Functions.py
