@@ -1,0 +1,76 @@
+# Day 4 - Python Practice
+# Topic: Lists, Tuples, Sets, and Dictionary Operations
+
+
+# 1. Find the sum and average of a list
+numbers = [10, 20, 30, 40, 50]
+
+total = sum(numbers)
+average = total / len(numbers)
+
+print("Numbers:", numbers)
+print("Sum:", total)
+print("Average:", average)
+
+
+# 2. Find even and odd numbers in a list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+even_numbers = []
+odd_numbers = []
+
+for number in numbers:
+    if number % 2 == 0:
+        even_numbers.append(number)
+    else:
+        odd_numbers.append(number)
+
+print("Even numbers:", even_numbers)
+print("Odd numbers:", odd_numbers)
+
+
+# 3. Remove duplicate elements from a list
+numbers = [10, 20, 10, 30, 20, 40, 50]
+
+unique_numbers = list(set(numbers))
+
+print("Original list:", numbers)
+print("Unique numbers:", unique_numbers)
+
+
+# 4. Find the largest and smallest numbers
+numbers = [25, 12, 67, 34, 8, 90]
+
+print("Largest number:", max(numbers))
+print("Smallest number:", min(numbers))
+
+
+# 5. Work with tuples
+fruits = ("Apple", "Banana", "Mango", "Orange")
+
+print("Fruits:", fruits)
+print("First fruit:", fruits[0])
+print("Number of fruits:", len(fruits))
+
+
+# 6. Work with sets
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
+
+print("Union:", set_a.union(set_b))
+print("Intersection:", set_a.intersection(set_b))
+print("Difference:", set_a.difference(set_b))
+
+
+# 7. Count the frequency of elements
+numbers = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+
+frequency = {}
+
+for number in numbers:
+    frequency[number] = frequency.get(number, 0) + 1
+
+print("Element frequency:", frequency)
+
+
+# Day 4 completed!
