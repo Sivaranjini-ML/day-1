@@ -85,3 +85,56 @@ for name, mark in marks.items():
     print(name, ":", mark)
 
 # Day4_Python_Functions.py
+# Day 4: Python Functions and DSA Practice
+
+# Q1: Greeting function
+def greet():
+    print("Good Morning")
+
+greet()
+
+
+# Q2: Add two numbers
+def add(a, b):
+    return a + b
+
+print("Sum:", add(15, 25))
+
+
+# Q3: Check even or odd
+def check_even(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+
+check_even(8)
+
+
+# Q4: Find the largest number
+def find_largest(a, b, c):
+    return max(a, b, c)
+
+print("Largest:", find_largest(10, 50, 70))
+
+
+# Q5: Find the square
+def square(num):
+    return num * num
+
+print("Square:", square(7))
+
+
+# DSA Q1: Sum of a list
+numbers = [10, 20, 30, 40, 50]
+print("Sum of list:", sum(numbers))
+
+
+# DSA Q2: Count list items
+numbers = [5, 10, 15, 20, 25]
+print("Number of items:", len(numbers))
+
+
+# DSA Q3: Find the largest item in a list
+numbers = [12, 45, 23, 67, 34]
+print("Largest item:", max(numbers))
